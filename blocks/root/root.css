@@ -1,0 +1,24 @@
+﻿@font-face {
+  src: url(/vendor/Inter-Regular.woff2) format('woff2'),
+       url(/vendor/Inter-Regular.woff) format('woff');
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url(/vendor/Inter-Bold.woff2) format('woff2'),
+       url(/vendor/Inter-Bold.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+:root {
+  --basic-dark: #2a2c2f;
+  --basic-white: #fff;
+  --basic-gray: #aaa;
+}
+
+.root {
+  font-family: 'Inter', sans-serif;
+  color: var(--basic-white);
+  background-color: var(--basic-dark);
+}
