@@ -1,0 +1,5 @@
+﻿.places__discription {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}

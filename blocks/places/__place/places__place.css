@@ -1,0 +1,10 @@
+﻿.places__place {
+/*   width: 100%; */
+  display: grid;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-rows: auto auto;
+/*   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  gap: 48px 40px;
+}
