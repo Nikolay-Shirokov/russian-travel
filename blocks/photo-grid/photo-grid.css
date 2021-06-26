@@ -4,15 +4,23 @@
   margin: 0 auto;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);
+  grid-template-columns: repeat(4, 284px);
   gap: 16px;
 }
 
 @media screen and (max-width: 1183px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(3, 300px);
     gap: 14px;
     max-width: var(--page-max-width-without-padding);
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    padding-top: 71px;
+    grid-template-columns: repeat(2, 352px);
+    gap: 16px;
   }
 }

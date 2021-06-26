@@ -14,8 +14,8 @@
   background-color: rgba(42, 44, 47, .8);
 }
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 1023px) {
   .cover__overlay {
-
+    padding: 210px 0 209px 0;
   }
 }
