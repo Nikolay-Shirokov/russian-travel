@@ -27,6 +27,7 @@
   --basic-gray: #aaa;
   --page-max-width-without-padding: 1184px;
   --page-padding: 48px;
+  --add-padding: 100px;
 }
 
 .root {

@@ -19,6 +19,20 @@
 @media screen and (max-width: 1023px) {
   .places__place {
     grid-template-columns: 340px 352px;
-    column-gap: 28px;
+    gap: 45px 28px;
+  }
+  .places__place:nth-of-type(1) .places__title {
+    /* костыль чтобы был перенос заголовка Куршская коса на 768 */
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    grid-template-columns: 100%;
+    gap: 32px;
+  }
+  .places__place:nth-of-type(1) .places__title {
+    width: 100%;
   }
 }

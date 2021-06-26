@@ -4,4 +4,13 @@
   display: flex;
   flex-direction: row;
   gap: 19px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+    margin: 0;
+  }
 }
