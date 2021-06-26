@@ -1,10 +1,17 @@
 ﻿.places__place {
-/*   width: 100%; */
+  /*   width: 100%; */
   display: grid;
-  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-columns: 460px 484px;
   grid-template-rows: auto auto;
-/*   display: flex;
+  /*   display: flex;
   flex-direction: row;
   flex-wrap: wrap; */
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1183px) {
+  .places__place {
+    grid-template-columns: 440px 456px;
+    column-gap: 32px;
+  }
 }

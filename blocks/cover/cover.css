@@ -1,0 +1,7 @@
+﻿.cover {
+  background-image: url(/images/cover/cover-trains.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
