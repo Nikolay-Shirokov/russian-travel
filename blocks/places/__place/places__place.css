@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1023px) {
   .places__place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: minmax(340px, 440px) 352px;
     gap: 45px 28px;
   }
   .places__place:nth-of-type(1) .places__title {
