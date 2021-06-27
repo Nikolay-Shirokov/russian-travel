@@ -8,12 +8,11 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 1215px) {
   .photo-grid {
     grid-template-columns: repeat(3, 300px);
     gap: 14px;
     max-width: var(--page-max-width-without-padding);
-    margin: 0 auto;
   }
 }
 

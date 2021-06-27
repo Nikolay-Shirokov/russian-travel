@@ -5,9 +5,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgba(42, 44, 47, .3);
   transition: background-color .3s linear;
-  padding: 245px 0 244px 0;
+  /* padding: 245px 0 244px 0; */
+  min-height: 740px;
+  width: 100%;
 }
 
 .cover__overlay:hover {
@@ -16,12 +19,12 @@
 
 @media screen and (max-width: 1023px) {
   .cover__overlay {
-    padding: 210px 0 209px 0;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__overlay {
-    padding: 100px 0 98px 0;
+    min-height: 252px;
   }
 }

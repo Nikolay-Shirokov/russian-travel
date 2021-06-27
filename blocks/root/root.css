@@ -1,33 +1,11 @@
-﻿@font-face {
-  src: url(../../vendor/fonts/Inter-Regular.woff2) format('woff2'),
-       url(../../vendor/fonts/Inter-Regular.woff) format('woff');
-  font-family: 'Inter';
-  font-display: swap;
-}
-
-@font-face {
-  src: url(../../vendor/fonts/Inter-Bold.woff2) format('woff2'),
-       url(../../vendor/fonts/Inter-Bold.woff) format('woff');
-  font-family: 'Inter';
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  src: url(../../vendor/fonts/Inter-Black.woff2) format('woff2'),
-       url(../../vendor/fonts/Inter-Black.woff) format('woff');
-  font-family: 'Inter';
-  font-weight: 900;
-  font-display: swap;
-}
-
-:root {
+﻿:root {
   --basic-dark: #2a2c2f;
   --basic-white: #fff;
   --basic-gray: #aaa;
   --page-max-width-without-padding: 1184px;
   --page-padding: 48px;
   --add-padding: 100px;
+  --page-max-width-without-add-padding: calc(var(--page-max-width-without-padding) - var(--add-padding)*2);
 }
 
 .root {
@@ -39,13 +17,13 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 1215px) {
   :root {
     --page-max-width-without-padding: 928px;
   }
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 968px) {
   :root {
     --page-max-width-without-padding: 720px;
     --page-padding: 24px;

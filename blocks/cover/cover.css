@@ -1,7 +1,22 @@
 ﻿.cover {
   background-image: url(../../images/cover/cover-trains.webp);
+  /* фон ссылки уже используется в качестве затемнения, тогда видимо придется еще одну обертку делать. */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
+/*   min-height: 740px;
+  display: flex; */
 }
+/*
+@media screen and (max-width: 1023px) {
+  .cover {
+     min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+} */

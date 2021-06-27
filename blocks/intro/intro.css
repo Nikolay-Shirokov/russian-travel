@@ -1,11 +1,14 @@
 ﻿.intro {
-  padding: 92px 0 0 var(--add-padding);
-  max-width: 690px;
+/*   padding: 92px 0 0 var(--add-padding);
+  max-width: 690px; */
+  padding-top: 92px;
+  max-width: var(--page-max-width-without-add-padding);
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1183px) {
   .intro {
-    padding-left: var(--page-padding);
+    max-width: var(--page-max-width-without-padding);
   }
 }
 

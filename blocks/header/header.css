@@ -4,7 +4,7 @@
   padding: 28px 0 0 0;
 }
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 1215px) {
   .header {
     max-width: var(--page-max-width-without-padding);
     margin: 0 auto;

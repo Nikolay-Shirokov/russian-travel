@@ -18,13 +18,13 @@
 
 @media screen and (max-width: 1023px) {
   .places__place {
-    grid-template-columns: minmax(340px, 440px) 352px;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 440px);
     gap: 45px 28px;
   }
-  .places__place:nth-of-type(1) .places__title {
-    /* костыль чтобы был перенос заголовка Куршская коса на 768 */
+  /* костыль чтобы был перенос заголовка Куршская коса на 768 */
+/*   .places__place:nth-of-type(1) .places__title {
     width: 50%;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {
@@ -32,7 +32,7 @@
     grid-template-columns: 100%;
     gap: 32px;
   }
-  .places__place:nth-of-type(1) .places__title {
+/*   .places__place:nth-of-type(1) .places__title {
     width: 100%;
-  }
+  } */
 }

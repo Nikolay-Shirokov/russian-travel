@@ -6,7 +6,7 @@
   padding: 77px 0 0 0;
 }
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 1215px) {
   .footer {
     max-width: var(--page-max-width-without-padding);
     margin: 0 auto;
@@ -16,15 +16,14 @@
 
 @media screen and (max-width: 1023px) {
   .footer {
-    padding-top: 0;
-    margin-top: -23px;
+    padding-top: 76px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
+    padding-top: 38px;
     flex-direction: column;
-    margin-top: 0;
     gap: 33px;
     align-items: flex-start;
   }
