@@ -10,7 +10,8 @@
   .footer {
     max-width: var(--page-max-width-without-padding);
     margin: 0 auto;
-    padding-top: 26px;
+    /*padding-top: 26px;*/
+    padding-top: 80px;
   }
 }
 
@@ -22,7 +23,8 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding-top: 65px;
     flex-direction: column;
     gap: 33px;
     align-items: flex-start;

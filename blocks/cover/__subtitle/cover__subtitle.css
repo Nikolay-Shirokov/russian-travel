@@ -4,6 +4,7 @@
   min-width: 288px;
   max-width: 360px;
   margin: 33px 0 0 0;
+  position: relative;
 }
 
 @media screen and (max-width: 767px) {

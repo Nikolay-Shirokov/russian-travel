@@ -6,15 +6,38 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(42, 44, 47, .3);
-  transition: background-color .3s linear;
-  /* padding: 245px 0 244px 0; */
+
+  background-image: url(../../../images/cover/cover-trains.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+/*   transition: background-color .3s linear; */
   min-height: 740px;
   width: 100%;
 }
 
-.cover__overlay:hover {
+.cover__overlay:before {
+  content: "";
+  background-color: rgba(42, 44, 47, .3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: background-color .3s linear;
+}
+
+.cover__overlay:hover:before {
   background-color: rgba(42, 44, 47, .8);
+}
+
+/* .cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+} */
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -25,6 +48,6 @@
 
 @media screen and (max-width: 767px) {
   .cover__overlay {
-    min-height: 252px;
+    min-height: 200px;
   }
 }
