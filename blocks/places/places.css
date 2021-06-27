@@ -18,8 +18,11 @@
 
 @media screen and (max-width: 1023px) {
   .places {
-    /* padding-bottom: 93px; */
-    padding-bottom: 140px;
+    padding-bottom: 93px;
+    /* padding-bottom: 140px; */
+    /* У меня на этом размере экрана вот так https://recordit.co/IFSuEse7UH
+    Сдвиг происходи из-за того что нет переноса для Куршской косы
+    Вернул прежний отступ. судя по вашему скриншоту разница как раз на него */
     gap: 73px;
   }
 }
