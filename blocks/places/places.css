@@ -1,5 +1,5 @@
 ﻿.places {
-/*   padding: 92px var(--add-padding) 92px var(--add-padding); */
+  /*   padding: 92px var(--add-padding) 92px var(--add-padding); */
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -32,8 +32,8 @@
   .places {
     padding-top: 64px;
     /* padding-bottom: 30px; */
-    /* padding-bottom: 65px; */
-    padding-bottom: 91px;
+    padding-bottom: 65px;
+    /*padding-bottom: 91px; */
     gap: 49px;
   }
 }
